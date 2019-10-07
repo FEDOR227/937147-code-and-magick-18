@@ -1,7 +1,7 @@
 'use strict';
 
-var NAMES = ['Иван', 'Хуан', 'Себастьян', 'Мария', 'Кристоф', 'Виктор',  'Юлия',
-    'Люпита',  'Вашингтон'];
+var NAMES = ['Иван', 'Хуан', 'Себастьян', 'Мария', 'Кристоф', 'Виктор', 'Юлия',
+  'Люпита', 'Вашингтон'];
 
 var SUR_NAMES = ['да Марья', 'Верон', 'Мирабелла', 'Вальц', 'Онопко',
   'Топольницкая', 'Нионго', 'Ирвинг'];
@@ -19,7 +19,7 @@ var setupSimilar = document.querySelector('.setup-similar');
 setupSimilar.classList.remove('hidden');
 
 var similarListElement = setupSimilar.querySelector('.setup-similar-list');
-var similarWizardTemplate = document.querySelector('similar-wizard-template')
+var similarWizardTemplate = document.querySelector('#similar-wizard-template')
   .content.querySelector('.setup-similar-item');
 
 function getRandomElement(arr) {
