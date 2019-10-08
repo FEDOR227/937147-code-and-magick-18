@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 'use strict';
 
 var NAMES = ['Иван', 'Хуан', 'Себастьян', 'Мария', 'Кристоф', 'Виктор', 'Юлия',
