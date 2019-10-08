@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 'use strict';
 
 var NAMES = ['Иван', 'Хуан', 'Себастьян', 'Мария', 'Кристоф', 'Виктор', 'Юлия',
@@ -12,7 +13,7 @@ var COAT_COLORS = ['rgb(101, 137, 164)', 'rgb(241, 43, 107)', 'rgb(146, 100, 161
 var EYES_COLORS = ['black', 'red', 'blue', 'yellow', 'green'];
 
 
-var setup = document.fragment.querySelector('.setup');
+var setup = document.querySelector('.setup');
 setup.classList.remove('hidden');
 
 var setupSimilar = document.querySelector('.setup-similar');
@@ -61,3 +62,5 @@ function renderAllWizards(wizards) {
 }
 
 similarListElement.appendChild(renderAllWizards(createWizards(4)));
+
+
